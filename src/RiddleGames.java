@@ -1,4 +1,7 @@
 
+import java.util.Scanner;
+
+
 public class RiddleGames {
     private String nama;
     private int tebakAngka;
@@ -6,7 +9,12 @@ public class RiddleGames {
     
    // fungsi input data
     public void input(){
+       Scanner name = new Scanner(System.in);
        
+        System.out.println("Masukkan Nama : ");
+        nama = name.nextLine();
+        
+        
    } 
     
     // fungsi proses data
@@ -15,5 +23,7 @@ public class RiddleGames {
     }
     
     // fungsi untuk output data
-    public
+    public void output(){
+        
+    }
 }

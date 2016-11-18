@@ -32,7 +32,7 @@ public class RiddleGames {
         Random randomGenerator = new Random();
         this.randomisedNumber = randomGenerator.nextInt();
         
-        // perulangan levell
+        // perulangan level
         for(level = 1; level <= 5; level ++){
             // perulangan tebakan
             while(jumlahTebakan <= 5){

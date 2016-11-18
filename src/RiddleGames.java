@@ -14,6 +14,7 @@ public class RiddleGames {
         System.out.println("Masukkan Nama : ");
         nama = name.nextLine();
         
+        Scanner inputAngka = new Scanner(System.in);
         
    } 
     

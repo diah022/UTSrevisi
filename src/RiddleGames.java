@@ -9,13 +9,15 @@ public class RiddleGames {
     
    // fungsi input data
     public void input(){
-       Scanner name = new Scanner(System.in);
-       
+       // input nama pemain
+        Scanner name = new Scanner(System.in);
         System.out.println("Masukkan Nama : ");
         nama = name.nextLine();
         
+        // input angka tebakan
         Scanner inputAngka = new Scanner(System.in);
-        
+        System.out.println("Masukkan angka tebakan : ");
+        tebakAngka = inputAngka.nextInt();
    } 
     
     // fungsi proses data
@@ -25,6 +27,7 @@ public class RiddleGames {
     
     // fungsi untuk output data
     public void output(){
+        // pilihan untuk keluar atau lanjut
         
     }
 }

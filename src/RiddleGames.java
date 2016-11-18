@@ -8,4 +8,7 @@ public class RiddleGames {
     public void input(){
        
    } 
+    
+    // proses data
+    public
 }

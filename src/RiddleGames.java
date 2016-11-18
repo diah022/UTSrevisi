@@ -9,6 +9,11 @@ public class RiddleGames {
        
    } 
     
-    // proses data
+    // fungsi proses data
+    public void proses(){
+        
+    }
+    
+    // fungsi untuk output data
     public
 }

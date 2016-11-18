@@ -11,25 +11,34 @@ public class RiddleGames {
     private int tebakAngka;
     private byte level; 
     private char jawab;
-    public int randomisedNumber;
+    private int randomisedNumber;
+    private int jumlahTebakan;
     
    // fungsi input data
     public void input(){
        // input nama pemain
         Scanner name = new Scanner(System.in);
         System.out.println("Masukkan Nama Anda untuk memulai atau tekan 'Y' untuk keluar. Kemudian tekan 'enter'");
-        nama = name.nextLine();
+        this.nama = name.nextLine();
         
         // input angka tebakan
         Scanner inputAngka = new Scanner(System.in);
         System.out.println("Masukkan angka tebakan : ");
-        tebakAngka = inputAngka.nextInt();
+        this.tebakAngka = inputAngka.nextInt();
    } 
     
     // fungsi proses data
     public void proses(){
         Random randomGenerator = new Random();
         this.randomisedNumber = randomGenerator.nextInt();
+        
+        // perulangan levell
+        for(level = 1; level <= 5; level ++){
+            // perulangan tebakan
+            while(jumlahTebakan <= 5){
+                
+            }
+        }
         
     }
     

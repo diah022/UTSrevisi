@@ -12,6 +12,10 @@ public class AngkaTebakan {
         this.angka = angka;
     }
 
+    public int getAngka() {
+        return angka;
+    }
+
     
     
 }

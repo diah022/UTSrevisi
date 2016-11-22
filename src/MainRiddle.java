@@ -62,7 +62,12 @@ public class MainRiddle {
                                 detailScore.skor(); 
                                 break;
                             }
-                            
+                            else {
+                                if(angka.getAngka() < randomisedNumber){
+                                    System.out.println("Tebakan Anda terlalu kecil! Anda mempunyai kesempatan "+ minus + "lagi");
+                                }
+                                
+                            }
                         }
                         // Jika GameOver, game over dideteksi dari looping ke-6 yang tidak memunculkan input
                         // jawaban, tetapi langsung memberikan nilai ke CekGameOver,

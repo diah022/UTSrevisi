@@ -16,6 +16,10 @@ public class Score {
         this.pemain = pemain;
     }
 
+    public Pemain getPemain() {
+        return pemain;
+    }
+
     
    
 }

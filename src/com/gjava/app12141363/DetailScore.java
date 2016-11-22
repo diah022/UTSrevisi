@@ -10,5 +10,10 @@ public class DetailScore {
     private int level;
     private int jumlahTebakan;
 
+    public DetailScore(int level, int jumlahTebakan) {
+        this.level = level;
+        this.jumlahTebakan = jumlahTebakan;
+    }
+
     
 }

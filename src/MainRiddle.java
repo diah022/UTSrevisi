@@ -47,6 +47,13 @@ public class MainRiddle {
                     System.out.println("Tebakan Anda ?"+ angka.getAngka());
                         
                     for(kesempatan = 1; kesempatan <= 5; kesempatan++){
+                        int minus = 5 - kesempatan;
+                        
+//                        System.out.println(randomisedNumber);
+                        if(kesempatan ==5){ // Jika Loop ke 6, maka dipastikan GameOver
+                            System.out.println("GAMEOVER! Anda Gagal");
+                            cekGameOver++; // Memberikan nilai ++ (1), untuk memunculkan game Over
+                        }
                         
 
                     }

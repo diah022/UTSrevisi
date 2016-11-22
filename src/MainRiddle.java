@@ -76,7 +76,15 @@ public class MainRiddle {
                         if(cekGameOver>0){
                             break;
                         }
-                        
+                        // Level 5 adalah Level Maksimal
+                        if(level==5){ // Jika sudah Mencapai Level 5, langsung di break/otomatis Exit
+                            break;
+                        }
+                        else{
+                            Pemain pemain = new Pemain(nama);
+                            Score skore = new Score(pemain);
+                            skore.getDetailScore();
+                        }
 
                     }
                     

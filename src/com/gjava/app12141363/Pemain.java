@@ -12,6 +12,10 @@ public class Pemain {
         this.nama = nama;
     }
 
+    public String getNama() {
+        return nama;
+    }
+
     
     
     

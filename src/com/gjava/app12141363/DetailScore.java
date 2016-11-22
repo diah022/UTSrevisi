@@ -23,5 +23,9 @@ public class DetailScore {
         return jumlahTebakan;
     }
     
-    
+    public int skor(){
+        
+        
+        return totalSkor;
+    }
 }

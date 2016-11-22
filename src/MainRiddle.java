@@ -92,11 +92,7 @@ public class MainRiddle {
                     Scanner input = new Scanner(System.in);
                     nextLevel=input.nextLine();
                     level++;
-               }while(!"exit".equals(nextLevel));
                
-           }
-           
-       }while(!"Y".equals(nama));
         
         
         

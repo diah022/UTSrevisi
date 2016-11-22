@@ -12,7 +12,10 @@ public class Score {
     private Pemain pemain;
     private List<DetailScore> detailScore = new ArrayList<>();
 
+    public Score(Pemain pemain) {
+        this.pemain = pemain;
+    }
+
     
-    
-    
+   
 }

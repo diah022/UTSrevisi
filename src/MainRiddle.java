@@ -26,7 +26,14 @@ public class MainRiddle {
            if(!"Y".equals(nama)){
                Object nextLevel;
                do{
-                   
+                   System.out.println("# Level "+ level);
+                    System.out.println("Selamat Datang "+ nama);
+                    
+                    jumlahTebakan = level * 100;
+                    System.out.println("Silakan tebak angka antara 1 s/d "+ jumlahTebakan);
+                    System.out.println("Anda mempunyai kesempatan menebak 5 kali");
+                    
+                    
                }while(!"exit".equals(nextLevel));
                
            }

@@ -24,5 +24,10 @@ public class InputAngkaTebakan {
         this.angg = angka;
     }
     
+    public void InsertData(int ang){
+        AngkaTebakan tebakAngka = new AngkaTebakan(ang);
+        angkaTebakan.add(tebakAngka);
+    }
+    
      
 }

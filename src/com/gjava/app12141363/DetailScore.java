@@ -24,6 +24,9 @@ public class DetailScore {
     }
     
     public int skor(){
+        int totalSkor = 0;
+        int levelGame = this.level;
+               
         
         
         return totalSkor;

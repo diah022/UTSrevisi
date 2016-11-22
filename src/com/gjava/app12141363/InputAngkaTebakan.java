@@ -12,5 +12,9 @@ public class InputAngkaTebakan {
     private List<AngkaTebakan> angkaTebakan = new ArrayList<>();
     private AngkaTebakan angg;
 
+    public InputAngkaTebakan() {
+        
+    }
+
     
 }

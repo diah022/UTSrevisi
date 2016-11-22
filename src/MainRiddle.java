@@ -54,7 +54,30 @@ public class MainRiddle {
                             System.out.println("GAMEOVER! Anda Gagal");
                             cekGameOver++; // Memberikan nilai ++ (1), untuk memunculkan game Over
                         }
-                        
+                        else {
+                            // cek apakah angka tebakan sesuai dengan angka random
+                            if(angka.getAngka() == randomisedNumber){
+                                System.out.println("Tebakan Anda Benar!");
+                                DetailScore detailScore = new DetailScore(level, kesempatan);
+                                detailScore.skor(); 
+                                break;
+                            }
+                            
+                        }
+                        // Jika GameOver, game over dideteksi dari looping ke-6 yang tidak memunculkan input
+                        // jawaban, tetapi langsung memberikan nilai ke CekGameOver,
+                        if(cekGameOver>0){
+                            break;
+                        }
+                        // Level 5 adalah Level Maksimal
+                        if(level==5){ // Jika sudah Mencapai Level 5, langsung di break/otomatis Exit
+                            break;
+                        }
+                        else{
+                            Pemain pemain = new Pemain(nama);
+                            Score skore = new Score(pemain);
+                            skore.getDetailScore();
+                        }
 
                     }
                     

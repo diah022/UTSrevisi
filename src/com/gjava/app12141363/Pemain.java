@@ -8,6 +8,11 @@ package com.gjava.app12141363;
 public class Pemain {
     private String nama;
 
+    public Pemain(String nama) {
+        this.nama = nama;
+    }
+
+    
     
     
 }

@@ -37,6 +37,15 @@ public class MainRiddle {
                     Random randomGenerator = new Random();
                     randomisedNumber = randomGenerator.nextInt(jumlahTebakan);
                     
+                    // input angka tebakan
+                    Scanner inputAngka = new Scanner(System.in);
+                    tebakAngka = inputAngka.nextInt();
+                    
+                    AngkaTebakan angka = new AngkaTebakan(tebakAngka);
+                    InputAngkaTebakan entryTebakan = new InputAngkaTebakan();
+                    entryTebakan.InsertData(tebakAngka);
+                    System.out.println("Tebakan Anda ?"+ angka.getAngka());
+                        
                     
                }while(!"exit".equals(nextLevel));
                

@@ -16,7 +16,9 @@ public class Pemain {
         return nama;
     }
 
-    
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
     
     
 }

@@ -19,5 +19,10 @@ public class InputPemain {
         this.pemain = pemain;
     }
 
+    public void setGamers(Pemain gamers) {
+        this.gamers = gamers;
+    }
+
+    
     
 }

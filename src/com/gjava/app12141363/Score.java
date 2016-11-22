@@ -20,6 +20,8 @@ public class Score {
         return pemain;
     }
 
-    
+    public List<DetailScore> getDetailScore() {
+        return detailScore;
+    }
    
 }

@@ -24,5 +24,10 @@ public class InputPemain {
     }
 
     
+    public void InsertData(String nama){
+        Pemain gamer = new Pemain(nama);
+        pemain.add(gamer);
+    }
     
+     
 }

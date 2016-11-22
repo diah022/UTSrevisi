@@ -12,5 +12,8 @@ public class InputPemain {
     private List<Pemain> pemain = new ArrayList<>();
     private Pemain gamers;
 
+    public InputPemain() {
+    }
+
     
 }

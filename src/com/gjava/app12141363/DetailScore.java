@@ -15,5 +15,9 @@ public class DetailScore {
         this.jumlahTebakan = jumlahTebakan;
     }
 
+    public int getLevel() {
+        return level;
+    }
+
     
 }

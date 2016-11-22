@@ -29,5 +29,7 @@ public class InputAngkaTebakan {
         angkaTebakan.add(tebakAngka);
     }
     
-     
+    public ArrayList<AngkaTebakan> getAll(){
+        return (ArrayList<AngkaTebakan>) angkaTebakan;
+    } 
 }

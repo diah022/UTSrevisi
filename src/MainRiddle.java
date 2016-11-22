@@ -23,7 +23,13 @@ public class MainRiddle {
            InputPemain entrypemain = new InputPemain();
            entrypemain.InsertData(nama);
            
-           
+           if(!"Y".equals(nama)){
+               Object nextLevel;
+               do{
+                   
+               }while(!"exit".equals(nextLevel));
+               
+           }
            
        }while(!"Y".equals(nama));
         

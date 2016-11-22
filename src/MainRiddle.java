@@ -33,6 +33,10 @@ public class MainRiddle {
                     System.out.println("Silakan tebak angka antara 1 s/d "+ jumlahTebakan);
                     System.out.println("Anda mempunyai kesempatan menebak 5 kali");
                     
+                    // random angka tebakan
+                    Random randomGenerator = new Random();
+                    randomisedNumber = randomGenerator.nextInt(jumlahTebakan);
+                    
                     
                }while(!"exit".equals(nextLevel));
                

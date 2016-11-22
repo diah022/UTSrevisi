@@ -16,6 +16,8 @@ public class AngkaTebakan {
         return angka;
     }
 
-    
+    public void setAngka(int angka) {
+        this.angka = angka;
+    }
     
 }

@@ -19,5 +19,9 @@ public class DetailScore {
         return level;
     }
 
+    public int getJumlahTebakan() {
+        return jumlahTebakan;
+    }
+    
     
 }

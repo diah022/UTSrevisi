@@ -20,5 +20,9 @@ public class InputAngkaTebakan {
         this.angkaTebakan = angkaTebakan;
     }
 
+    public void setAngka(AngkaTebakan angka) {
+        this.angg = angka;
+    }
     
+     
 }

@@ -15,7 +15,12 @@ public class MainRiddle {
         int kesempatan;
         int cekGameOver = 0;
         
-       
+       do{
+           
+           
+       }while(!"Y".equals(nama));
+        
+        
         
     }
 }

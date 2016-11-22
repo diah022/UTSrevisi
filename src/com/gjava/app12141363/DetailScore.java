@@ -27,7 +27,22 @@ public class DetailScore {
         int totalSkor = 0;
         int levelGame = this.level;
                
-        
+        switch (this.jumlahTebakan) {
+            case 1:
+                totalSkor = levelGame * 100;
+                break;
+            case 2:
+                totalSkor = levelGame * 70;
+                break;
+            case 3:
+                totalSkor = levelGame * 50;
+                break;
+            case 4:
+                totalSkor = levelGame * 30;
+                break;
+            default:
+                break;
+        }
         
         return totalSkor;
     }

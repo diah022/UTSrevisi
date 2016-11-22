@@ -15,5 +15,9 @@ public class InputPemain {
     public InputPemain() {
     }
 
+    public void setPemain(List<Pemain> pemain) {
+        this.pemain = pemain;
+    }
+
     
 }

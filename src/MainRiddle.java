@@ -66,7 +66,9 @@ public class MainRiddle {
                                 if(angka.getAngka() < randomisedNumber){
                                     System.out.println("Tebakan Anda terlalu kecil! Anda mempunyai kesempatan "+ minus + "lagi");
                                 }
-                                
+                                else if (angka.getAngka() > randomisedNumber){
+                                    System.out.println("Tebakan Anda terlalu besar! Anda mempunyai kesempatan "+ minus + "lagi");
+                                }
                             }
                         }
                         // Jika GameOver, game over dideteksi dari looping ke-6 yang tidak memunculkan input

@@ -16,6 +16,13 @@ public class MainRiddle {
         int cekGameOver = 0;
         
        do{
+           Scanner name = new Scanner(System.in);
+           System.out.println("Masukkan Nama Anda untuk memulai atau tekan 'Y' untuk keluar. Kemudian tekan 'enter'");
+           nama = name.nextLine();
+           
+           InputPemain entrypemain = new InputPemain();
+           entrypemain.InsertData(nama);
+           
            
            
        }while(!"Y".equals(nama));

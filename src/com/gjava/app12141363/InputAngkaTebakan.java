@@ -16,5 +16,9 @@ public class InputAngkaTebakan {
         
     }
 
+    public void setAngkaTebakan(List<AngkaTebakan> angkaTebakan) {
+        this.angkaTebakan = angkaTebakan;
+    }
+
     
 }

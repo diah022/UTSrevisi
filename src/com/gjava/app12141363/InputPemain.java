@@ -29,5 +29,7 @@ public class InputPemain {
         pemain.add(gamer);
     }
     
-     
+    public ArrayList<Pemain> getAll(){
+        return (ArrayList<Pemain>) pemain;
+    } 
 }

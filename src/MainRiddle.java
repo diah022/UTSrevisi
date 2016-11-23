@@ -24,7 +24,7 @@ public class MainRiddle {
            entrypemain.InsertData(nama);
            
            if(!"Y".equals(nama)){
-               Object nextLevel;
+               String nextLevel;
                do{
                    System.out.println("# Level "+ level);
                     System.out.println("Selamat Datang "+ nama);
@@ -41,13 +41,8 @@ public class MainRiddle {
                     Scanner inputAngka = new Scanner(System.in);
                     tebakAngka = inputAngka.nextInt();
                     
-                    AngkaTebakan angka = new AngkaTebakan(tebakAngka);
-                    InputAngkaTebakan entryTebakan = new InputAngkaTebakan();
-                    entryTebakan.InsertData(tebakAngka);
-                    System.out.println("Tebakan Anda ?"+ angka.getAngka());
                         
-                    for(kesempatan = 1; kesempatan <= 5; kesempatan++){
-                        int minus = 5 - kesempatan;
+                    for(kesempatan = 0; kesempatan <= 5; kesempatan++){
                         
 //                        System.out.println(randomisedNumber);
                         if(kesempatan ==5){ // Jika Loop ke 6, maka dipastikan GameOver
@@ -55,6 +50,12 @@ public class MainRiddle {
                             cekGameOver++; // Memberikan nilai ++ (1), untuk memunculkan game Over
                         }
                         else {
+                            int minus = 5 - kesempatan;
+                            
+                            System.out.println("Tebakan Anda ?"+ angka.getAngka());
+                            AngkaTebakan angka = new AngkaTebakan(tebakAngka);
+                            InputAngkaTebakan entryTebakan = new InputAngkaTebakan();
+                            entryTebakan.InsertData(tebakAngka);
                             // cek apakah angka tebakan sesuai dengan angka random
                             if(angka.getAngka() == randomisedNumber){
                                 System.out.println("Tebakan Anda Benar!");
@@ -92,9 +93,11 @@ public class MainRiddle {
                     Scanner input = new Scanner(System.in);
                     nextLevel=input.nextLine();
                     level++;
+               }while(!"exit".equals(nextLevel));
                
-        
-        
-        
+           }
+           
+       }while(!"Y".equals(nama));
+       
     }
 }
